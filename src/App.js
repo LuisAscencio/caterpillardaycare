@@ -7,7 +7,7 @@ import { AboutUs } from "./components/AboutUs";
 function App() {
   return (
     <div>
-      {/* <NavBar /> */}
+      <NavBar />
       <AboutUs />
     </div>
   );
