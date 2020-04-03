@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Testimonials from "./components/Testimonials";
 import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
 import "./App.css";
 import { AboutUs } from "./components/AboutUs";
 
@@ -13,6 +14,7 @@ function App() {
       <AboutUs />
       <Testimonials />
       <Gallery />
+      <Contact />
     </div>
   );
 }
